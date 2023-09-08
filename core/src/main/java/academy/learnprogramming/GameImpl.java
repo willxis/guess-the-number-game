@@ -44,7 +44,7 @@ public class GameImpl implements Game {
         smallest = numberGenerator.getMinNumber();
         biggest = numberGenerator.getMaxNumber();
         number = numberGenerator.next();
-        log.debug("the number is {}", number);
+        //log.debug("the number is {}", number);
     }
 
     @PreDestroy
