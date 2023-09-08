@@ -4,11 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5866062-eee6-437f-b4fb-b00eca7eeabf" name="Changes" comment="Publish project">
-      <change beforePath="$PROJECT_DIR$/console/target/classes/academy/learnprogramming/console/ConsoleNumberGuess.class" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/classes/academy/learnprogramming/console/ConsoleNumberGuess.class" afterDir="false" />
+    <list default="true" id="a5866062-eee6-437f-b4fb-b00eca7eeabf" name="Changes" comment="Commenting Log Debug where the generated number was shown (console)">
+      <change afterPath="$PROJECT_DIR$/console/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/console/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/target/console-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/console-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/GameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/GameImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/GameImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/GameImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/MessageGeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/MessageGeneratorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MessageGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MessageGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/GameImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/GuessCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/MaxNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/MessageGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/MessageGeneratorImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/MinNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/NumberGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/NumberGeneratorImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/config/GameConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +75,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "D:/Repositories/learn-spring/guess-the-number-game/core/src/main/resources",
+    "last_opened_file_path": "D:/Repositories/learn-spring/guess-the-number-game",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "2a141b30760efdfc5801ac1c46697233",
@@ -70,6 +93,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Repositories\learn-spring\guess-the-number-game\core\src\main\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Repositories\learn-spring\guess-the-number-game\console\src\main\java" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="academy.learnprogramming" />
     </key>
@@ -79,13 +105,13 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.academy.learnprogramming.console.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="academy.learnprogramming.Main" />
       <module name="console" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="academy.learnprogramming.console.*" />
+          <option name="PATTERN" value="academy.learnprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,22 +119,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="academy.learnprogramming.console.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.learnprogramming.console.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.learnprogramming.Main" />
       <module name="console" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="academy.learnprogramming.console.*" />
+          <option name="PATTERN" value="academy.learnprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="console" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="academy.learnprogramming.Main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.academy.learnprogramming.console.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -124,7 +156,9 @@
       <workItem from="1692761967927" duration="9603000" />
       <workItem from="1692899486929" duration="32647000" />
       <workItem from="1693012075211" duration="1016000" />
-      <workItem from="1693248804669" duration="8339000" />
+      <workItem from="1693248804669" duration="8613000" />
+      <workItem from="1694205310372" duration="2252000" />
+      <workItem from="1694207578799" duration="383000" />
     </task>
     <task id="LOCAL-00001" summary="Multi module Spring Project">
       <created>1693004047950</created>
@@ -147,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694200548268</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commenting Log Debug where the generated number was shown (console)">
+      <created>1694201010209</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694201010209</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +222,7 @@
     <MESSAGE value="Multi module Spring Project" />
     <MESSAGE value="Refactoring Using Lombok" />
     <MESSAGE value="Publish project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Publish project" />
+    <MESSAGE value="Commenting Log Debug where the generated number was shown (console)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commenting Log Debug where the generated number was shown (console)" />
   </component>
 </project>
