@@ -1,0 +1,21 @@
+<thlogic>
+    <attr sel="head" th:replace="~{fragments/head :: headFragment}"/>
+    <attr sel="#game-title" th:text="#{game.title}"/>
+    <attr sel="#game-over-msg" th:text="#{game.over-msg}"/>
+    <!--/*@thymesVar id="resultMsg" type="String"*/-->
+    <attr sel="#result-message"
+          th:with="resultMsg=${T(academy.learnprogramming.util.AttributeNames).RESULT_MESSAGE}"
+          th:text="${__${resultMsg}__}"/>
+    <!--/*@thymesVar id="newGame" type="String"*/-->
+    <attr sel="#play-again-link"
+          th:with="newGame=${T(academy.learnprogramming.util.GameMappings).RESTART}"
+          th:href="${newGame}"
+          th:text="#{game.replay-link-text}"/>
+    <!--/*@thymesVar id="homePage" type="String"*/-->
+    <attr sel="#home-link"
+          th:with="homePage=${T(academy.learnprogramming.util.GameMappings).HOME}"
+          th:href="${homePage}"
+          th:text="#{game.home-link-text}"/>
+    <attr sel="footer"
+          th:replace="~{fragments/footer :: footer}"/>
+</thlogic>

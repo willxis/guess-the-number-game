@@ -38,12 +38,13 @@ public class GameImpl implements Game {
     @PostConstruct
     @Override
     public void reset() {
+        if( isGameWon() || isGameLost() ) {
         remainingGuesses = guessCount;
         guess = numberGenerator.getMinNumber();
         smallest = numberGenerator.getMinNumber();
         biggest = numberGenerator.getMaxNumber();
         number = numberGenerator.next();
-        //log.debug("the number is {}", number);
+        log.debug("Reset Method: The number is {}", number);}
     }
 
     @PreDestroy
@@ -57,14 +58,14 @@ public class GameImpl implements Game {
 
         if(validNumberRange) {
             if (guess > number) {
-                biggest = guess -1;
+                biggest = guess - 1;
             }
 
             if (guess < number) {
                 smallest = guess + 1;
             }
+            remainingGuesses--;
         }
-        remainingGuesses--;
     }
 
     @Override
