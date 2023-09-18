@@ -15,6 +15,7 @@
     <modules>
         <module>core</module>
         <module>console</module>
+        <module>web</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
